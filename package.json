@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Node back-end for a simple REST API example with basic CRUD operations.",
+  "homepage": "https://github.com/n-parisi/node-react-rest-api",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n-parisi/node-react-rest-api.git"
+  },
+  "author": "Nick Parisi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2"
+  }
+}
